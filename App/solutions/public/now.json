@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias":"christopher-iblogger-app",
+  "name": "iblogger",
+  "routes": [
+      { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/index.html" }
+  ]
+}
